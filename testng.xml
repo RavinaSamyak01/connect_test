@@ -1,0 +1,73 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ConnectSuite">
+
+
+	<test thread-count="5" name="OrderCreationProcessing">
+		<classes>
+			<class name="connect_OrderProcessing.AllOrderCreation"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="ECourier-Test Utility">
+		<classes>
+			<class name="connect_Ecourier.LOCEcourier"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="DeltaAirline">
+		<classes>
+			<class name="Connect_CreateBookingdeltaAirlines.SDdelta"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Quick Quote verification">
+		<classes>
+			<class name="Quick_Quote_28658.quick_quote"></class>
+		</classes>
+	</test>
+	<test thread-count="5" name="customer segment verification">
+		<classes>
+			<class name="customer_segment_28661.customer_segment"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="AutoDispatch_28677">
+		<classes>
+			<class name="AutoDispatch_28677.connect_autodispatch"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Ship Label Services_28678">
+		<classes>
+			<class name="Ship_Label_Services_28678.connect_ship_label"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Business Unit verification in edit tab">
+		<classes>
+			<class name="BU_verification_30014.Business_unit_verification"></class>
+		</classes>
+	</test>
+
+
+	<test thread-count="5" name="Verify Bill">
+		<classes>
+			<class name="Connect_VerifyBill.VerifyBill"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="MassVerifyBillCustomer">
+		<classes>
+			<class name="Connect_VerifyBill.MassVerifyBillCustomer"></class>
+		</classes>
+	</test>
+
+
+	<test thread-count="5" name="SpotQuote_Verification">
+		<classes>
+			<class name="connect_SpotQuoteVerification.SpotQuote_Verification"></class>
+		</classes>
+	</test>
+
+
+</suite>

@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ConnectSuite" class="navigator-link">
+              <span class="suite-name border-skipped">ConnectSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ConnectSuite" class="navigator-link ">
+                    <span>D:\Parth workspace\TestingAutomation\Connect\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ConnectSuite" class="navigator-link ">
+                    <span class="test-stats">11 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ConnectSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ConnectSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ConnectSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ConnectSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ConnectSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,  11 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-ConnectSuite" class="hide-methods skipped suite-ConnectSuite"> (hide)</a> <!-- hide-methods skipped suite-ConnectSuite -->
+                      <a href="#" panel-name="suite-ConnectSuite" class="show-methods skipped suite-ConnectSuite"> (show)</a> <!-- show-methods skipped suite-ConnectSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-ConnectSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ConnectSuite" title="connect_Ecourier.LOCEcourier" class="method navigator-link" hash-for-method="LocEcourier">LocEcourier</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ConnectSuite" title="Connect_VerifyBill.MassVerifyBillCustomer" class="method navigator-link" hash-for-method="MVCBill">MVCBill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ConnectSuite" title="connect_SpotQuoteVerification.SpotQuote_Verification" class="method navigator-link" hash-for-method="VerifySpotQuote">VerifySpotQuote</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ConnectSuite" title="connect_OrderProcessing.AllOrderCreation" class="method navigator-link" hash-for-method="allOrderCreation">allOrderCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ConnectSuite" title="AutoDispatch_28677.connect_autodispatch" class="method navigator-link" hash-for-method="auto_dispatch">auto_dispatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ConnectSuite" title="customer_segment_28661.customer_segment" class="method navigator-link" hash-for-method="custSegment">custSegment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ConnectSuite" title="BU_verification_30014.Business_unit_verification" class="method navigator-link" hash-for-method="fatl">fatl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ConnectSuite" title="Connect_VerifyBill.VerifyBill" class="method navigator-link" hash-for-method="massVfyBill">massVfyBill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ConnectSuite" title="Quick_Quote_28658.quick_quote" class="method navigator-link" hash-for-method="quickQuote">quickQuote</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ConnectSuite" title="Connect_CreateBookingdeltaAirlines.SDdelta" class="method navigator-link" hash-for-method="sdSameDay">sdSameDay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ConnectSuite" title="Ship_Label_Services_28678.connect_ship_label" class="method navigator-link" hash-for-method="ship_label">ship_label</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-ConnectSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ConnectSuite" class="panel ConnectSuite">
+          <div class="suite-ConnectSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Ship_Label_Services_28678.connect_ship_label</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ship_label">
+                  </a> <!-- ship_label -->
+                  <span class="method-name">ship_label</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ConnectSuite-class-skipped -->
+          <div class="suite-ConnectSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">connect_Ecourier.LOCEcourier</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LocEcourier">
+                  </a> <!-- LocEcourier -->
+                  <span class="method-name">LocEcourier</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ConnectSuite-class-skipped -->
+          <div class="suite-ConnectSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Connect_CreateBookingdeltaAirlines.SDdelta</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sdSameDay">
+                  </a> <!-- sdSameDay -->
+                  <span class="method-name">sdSameDay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ConnectSuite-class-skipped -->
+          <div class="suite-ConnectSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">connect_OrderProcessing.AllOrderCreation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="allOrderCreation">
+                  </a> <!-- allOrderCreation -->
+                  <span class="method-name">allOrderCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ConnectSuite-class-skipped -->
+          <div class="suite-ConnectSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">connect_SpotQuoteVerification.SpotQuote_Verification</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySpotQuote">
+                  </a> <!-- VerifySpotQuote -->
+                  <span class="method-name">VerifySpotQuote</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: &apos;SIPL30&apos;, ip: &apos;10.100.112.30&apos;
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --headless, --window-size=1920, 1080, --disable-extensions, --no-sandbox, enable-automation, --dns-prefetch-disable, --disable-gpu, enable-features=NetworkServ..., --disable-infobars, --disable-dev-shm-usage, --force-device-scale-factor=1, --no-proxy-server, --log-level=3, --silent, --no-proxy-server, --proxy-bypass-list=*], extensions: [], prefs: {download.default_directory: D:\Parth workspace\TestingA..., profile.default_content_settings.popups: 0, safebrowsing.enabled: false}}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:73)
+	at connect_BasePackage.BaseInit.beforeMethod(BaseInit.java:137)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ConnectSuite-class-skipped -->
+          <div class="suite-ConnectSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Connect_VerifyBill.MassVerifyBillCustomer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MVCBill">
+                  </a> <!-- MVCBill -->
+                  <span class="method-name">MVCBill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ConnectSuite-class-skipped -->
+          <div class="suite-ConnectSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">customer_segment_28661.customer_segment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="custSegment">
+                  </a> <!-- custSegment -->
+                  <span class="method-name">custSegment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ConnectSuite-class-skipped -->
+          <div class="suite-ConnectSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">AutoDispatch_28677.connect_autodispatch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="auto_dispatch">
+                  </a> <!-- auto_dispatch -->
+                  <span class="method-name">auto_dispatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ConnectSuite-class-skipped -->
+          <div class="suite-ConnectSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Connect_VerifyBill.VerifyBill</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="massVfyBill">
+                  </a> <!-- massVfyBill -->
+                  <span class="method-name">massVfyBill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ConnectSuite-class-skipped -->
+          <div class="suite-ConnectSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">BU_verification_30014.Business_unit_verification</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fatl">
+                  </a> <!-- fatl -->
+                  <span class="method-name">fatl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ConnectSuite-class-skipped -->
+          <div class="suite-ConnectSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Quick_Quote_28658.quick_quote</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickQuote">
+                  </a> <!-- quickQuote -->
+                  <span class="method-name">quickQuote</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ConnectSuite-class-skipped -->
+        </div> <!-- panel ConnectSuite -->
+        <div panel-name="test-xml-ConnectSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Parth workspace\TestingAutomation\Connect\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ConnectSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;OrderCreationProcessing&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;connect_OrderProcessing.AllOrderCreation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OrderCreationProcessing --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ECourier-Test Utility&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;connect_Ecourier.LOCEcourier&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ECourier-Test Utility --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DeltaAirline&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Connect_CreateBookingdeltaAirlines.SDdelta&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DeltaAirline --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Quick Quote verification&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Quick_Quote_28658.quick_quote&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Quick Quote verification --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;customer segment verification&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;customer_segment_28661.customer_segment&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- customer segment verification --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AutoDispatch_28677&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AutoDispatch_28677.connect_autodispatch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AutoDispatch_28677 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Ship Label Services_28678&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Ship_Label_Services_28678.connect_ship_label&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ship Label Services_28678 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Business Unit verification in edit tab&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BU_verification_30014.Business_unit_verification&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Business Unit verification in edit tab --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Bill&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Connect_VerifyBill.VerifyBill&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Bill --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MassVerifyBillCustomer&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Connect_VerifyBill.MassVerifyBillCustomer&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MassVerifyBillCustomer --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SpotQuote_Verification&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;connect_SpotQuoteVerification.SpotQuote_Verification&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SpotQuote_Verification --&gt;
+&lt;/suite&gt; &lt;!-- ConnectSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ConnectSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ConnectSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">OrderCreationProcessing (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ECourier-Test Utility (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DeltaAirline (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Quick Quote verification (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">customer segment verification (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AutoDispatch_28677 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ship Label Services_28678 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Business Unit verification in edit tab (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Bill (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MassVerifyBillCustomer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SpotQuote_Verification (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ConnectSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ConnectSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ConnectSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ConnectSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ConnectSuite');
+function tableData_ConnectSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'allOrderCreation')
+data.setCell(0, 2, 'connect_OrderProcessing.AllOrderCreation')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LocEcourier')
+data.setCell(1, 2, 'connect_Ecourier.LOCEcourier')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'sdSameDay')
+data.setCell(2, 2, 'Connect_CreateBookingdeltaAirlines.SDdelta')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'quickQuote')
+data.setCell(3, 2, 'Quick_Quote_28658.quick_quote')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'custSegment')
+data.setCell(4, 2, 'customer_segment_28661.customer_segment')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'auto_dispatch')
+data.setCell(5, 2, 'AutoDispatch_28677.connect_autodispatch')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ship_label')
+data.setCell(6, 2, 'Ship_Label_Services_28678.connect_ship_label')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'fatl')
+data.setCell(7, 2, 'BU_verification_30014.Business_unit_verification')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'massVfyBill')
+data.setCell(8, 2, 'Connect_VerifyBill.VerifyBill')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'MVCBill')
+data.setCell(9, 2, 'Connect_VerifyBill.MassVerifyBillCustomer')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifySpotQuote')
+data.setCell(10, 2, 'connect_SpotQuoteVerification.SpotQuote_Verification')
+data.setCell(10, 3, 0);
+window.suiteTableData['ConnectSuite']= { tableData: data, tableDiv: 'times-div-ConnectSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-ConnectSuite">
+              </div> <!-- times-div-ConnectSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ConnectSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ConnectSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ConnectSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ConnectSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">connect_SpotQuoteVerification.SpotQuote_Verification</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">connect_OrderProcessing.AllOrderCreation</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName</span>
+                <span class="method-start">4342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allOrderCreation</span>
+                <span class="method-start">4344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult</span>
+                <span class="method-start">4347 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">connect_Ecourier.LOCEcourier</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName</span>
+                <span class="method-start">4358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LocEcourier</span>
+                <span class="method-start">4359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult</span>
+                <span class="method-start">4361 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Connect_CreateBookingdeltaAirlines.SDdelta</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName</span>
+                <span class="method-start">4367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sdSameDay</span>
+                <span class="method-start">4369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult</span>
+                <span class="method-start">4370 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Quick_Quote_28658.quick_quote</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName</span>
+                <span class="method-start">4376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">quickQuote</span>
+                <span class="method-start">4378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult</span>
+                <span class="method-start">4379 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">customer_segment_28661.customer_segment</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName</span>
+                <span class="method-start">4386 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">custSegment</span>
+                <span class="method-start">4387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult</span>
+                <span class="method-start">4388 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutoDispatch_28677.connect_autodispatch</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName</span>
+                <span class="method-start">4395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">auto_dispatch</span>
+                <span class="method-start">4397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult</span>
+                <span class="method-start">4398 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Ship_Label_Services_28678.connect_ship_label</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName</span>
+                <span class="method-start">4405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ship_label</span>
+                <span class="method-start">4406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult</span>
+                <span class="method-start">4408 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BU_verification_30014.Business_unit_verification</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName</span>
+                <span class="method-start">4414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fatl</span>
+                <span class="method-start">4416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult</span>
+                <span class="method-start">4416 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Connect_VerifyBill.VerifyBill</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName</span>
+                <span class="method-start">4425 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult</span>
+                <span class="method-start">4426 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">massVfyBill</span>
+                <span class="method-start">4426 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Connect_VerifyBill.MassVerifyBillCustomer</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName</span>
+                <span class="method-start">4433 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MVCBill</span>
+                <span class="method-start">4434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult</span>
+                <span class="method-start">4435 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">connect_SpotQuoteVerification.SpotQuote_Verification</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName</span>
+                <span class="method-start">4448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySpotQuote</span>
+                <span class="method-start">4449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult</span>
+                <span class="method-start">4455 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">SendEmail</span>
+                <span class="method-start">4467 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ConnectSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OrderCreationProcessing(failed)">
+    <classes>
+      <class name="connect_OrderProcessing.AllOrderCreation">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+          <include name="testMethodName"/>
+          <include name="SendEmail"/>
+          <include name="allOrderCreation"/>
+        </methods>
+      </class> <!-- connect_OrderProcessing.AllOrderCreation -->
+    </classes>
+  </test> <!-- OrderCreationProcessing(failed) -->
+  <test thread-count="5" name="ECourier-Test Utility(failed)">
+    <classes>
+      <class name="connect_Ecourier.LOCEcourier">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+          <include name="LocEcourier"/>
+          <include name="testMethodName"/>
+          <include name="SendEmail"/>
+        </methods>
+      </class> <!-- connect_Ecourier.LOCEcourier -->
+    </classes>
+  </test> <!-- ECourier-Test Utility(failed) -->
+  <test thread-count="5" name="DeltaAirline(failed)">
+    <classes>
+      <class name="Connect_CreateBookingdeltaAirlines.SDdelta">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+          <include name="sdSameDay"/>
+          <include name="testMethodName"/>
+          <include name="SendEmail"/>
+        </methods>
+      </class> <!-- Connect_CreateBookingdeltaAirlines.SDdelta -->
+    </classes>
+  </test> <!-- DeltaAirline(failed) -->
+  <test thread-count="5" name="Quick Quote verification(failed)">
+    <classes>
+      <class name="Quick_Quote_28658.quick_quote">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+          <include name="quickQuote"/>
+          <include name="testMethodName"/>
+          <include name="SendEmail"/>
+        </methods>
+      </class> <!-- Quick_Quote_28658.quick_quote -->
+    </classes>
+  </test> <!-- Quick Quote verification(failed) -->
+  <test thread-count="5" name="customer segment verification(failed)">
+    <classes>
+      <class name="customer_segment_28661.customer_segment">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+          <include name="custSegment"/>
+          <include name="testMethodName"/>
+          <include name="SendEmail"/>
+        </methods>
+      </class> <!-- customer_segment_28661.customer_segment -->
+    </classes>
+  </test> <!-- customer segment verification(failed) -->
+  <test thread-count="5" name="AutoDispatch_28677(failed)">
+    <classes>
+      <class name="AutoDispatch_28677.connect_autodispatch">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+          <include name="auto_dispatch"/>
+          <include name="testMethodName"/>
+          <include name="SendEmail"/>
+        </methods>
+      </class> <!-- AutoDispatch_28677.connect_autodispatch -->
+    </classes>
+  </test> <!-- AutoDispatch_28677(failed) -->
+  <test thread-count="5" name="Ship Label Services_28678(failed)">
+    <classes>
+      <class name="Ship_Label_Services_28678.connect_ship_label">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+          <include name="testMethodName"/>
+          <include name="ship_label"/>
+          <include name="SendEmail"/>
+        </methods>
+      </class> <!-- Ship_Label_Services_28678.connect_ship_label -->
+    </classes>
+  </test> <!-- Ship Label Services_28678(failed) -->
+  <test thread-count="5" name="Business Unit verification in edit tab(failed)">
+    <classes>
+      <class name="BU_verification_30014.Business_unit_verification">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+          <include name="fatl"/>
+          <include name="testMethodName"/>
+          <include name="SendEmail"/>
+        </methods>
+      </class> <!-- BU_verification_30014.Business_unit_verification -->
+    </classes>
+  </test> <!-- Business Unit verification in edit tab(failed) -->
+  <test thread-count="5" name="Verify Bill(failed)">
+    <classes>
+      <class name="Connect_VerifyBill.VerifyBill">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+          <include name="massVfyBill"/>
+          <include name="testMethodName"/>
+          <include name="SendEmail"/>
+        </methods>
+      </class> <!-- Connect_VerifyBill.VerifyBill -->
+    </classes>
+  </test> <!-- Verify Bill(failed) -->
+  <test thread-count="5" name="MassVerifyBillCustomer(failed)">
+    <classes>
+      <class name="Connect_VerifyBill.MassVerifyBillCustomer">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+          <include name="testMethodName"/>
+          <include name="SendEmail"/>
+          <include name="MVCBill"/>
+        </methods>
+      </class> <!-- Connect_VerifyBill.MassVerifyBillCustomer -->
+    </classes>
+  </test> <!-- MassVerifyBillCustomer(failed) -->
+  <test thread-count="5" name="SpotQuote_Verification(failed)">
+    <classes>
+      <class name="connect_SpotQuoteVerification.SpotQuote_Verification">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+          <include name="testMethodName"/>
+          <include name="SendEmail"/>
+          <include name="VerifySpotQuote"/>
+        </methods>
+      </class> <!-- connect_SpotQuoteVerification.SpotQuote_Verification -->
+    </classes>
+  </test> <!-- SpotQuote_Verification(failed) -->
+</suite> <!-- Failed suite [ConnectSuite] -->

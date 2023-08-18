@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [NASuite]">
+  <test parallel="none" name="UserPreference(failed)">
+    <classes>
+      <class name="samyak_Preferences.UserPreference">
+        <methods>
+          <include name="login"/>
+          <include name="userPreference"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- samyak_Preferences.UserPreference -->
+    </classes>
+  </test> <!-- UserPreference(failed) -->
+</suite> <!-- Failed suite [NASuite] -->

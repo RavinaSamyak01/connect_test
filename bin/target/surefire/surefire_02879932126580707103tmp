@@ -1,0 +1,7 @@
+#surefire_0
+#Wed Apr 05 22:51:53 IST 2023
+style.color=always
+basedir=C\:\\Users\\rprajapati\\git\\ConnectMaven\\Connect
+application.properties=\\src\\main\\resources\\config.properties
+user.dir=C\:\\Users\\rprajapati\\git\\ConnectMaven\\Connect
+localRepository=C\:\\Users\\rprajapati\\.m2\\repository

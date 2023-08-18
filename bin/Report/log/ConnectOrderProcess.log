@@ -1,0 +1,82 @@
+2023-04-05 23:53:52,796 - LOCEcourier -INFO - initialization of the properties file is done
+2023-04-05 23:53:53,115 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 111.0.5563.64 (since Google Chrome 111 is installed in your machine)
+2023-04-05 23:53:53,133 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\rprajapati\.m2\repository\webdriver\chromedriver\win32\111.0.5563.64\chromedriver.exe
+2023-04-05 23:54:00,545 - LOCEcourier -INFO - Entered UserName
+2023-04-05 23:54:01,672 - LOCEcourier -INFO - Entered Password
+2023-04-05 23:54:02,773 - LOCEcourier -INFO - Login done
+2023-04-05 23:54:12,671 - LOCEcourier -INFO - ==== LOC Ecourier : Start ==== 
+
+2023-04-05 23:54:13,016 - LOCEcourier -INFO - Click on Operation
+2023-04-05 23:54:17,472 - LOCEcourier -INFO - Click on Tasklog
+2023-04-05 23:54:17,561 - LOCEcourier -INFO - Click on New Order
+2023-04-05 23:54:25,778 - LOCEcourier -INFO - =====Service:- LOC=====
+2023-04-05 23:54:26,177 - LOCEcourier -INFO - Entered CallerName
+2023-04-05 23:54:26,482 - LOCEcourier -INFO - Entered Contact/Phone
+2023-04-05 23:54:26,847 - LOCEcourier -INFO - Entered Customer Code
+2023-04-05 23:54:32,109 - LOCEcourier -INFO - Dialogue is not displayed for Customer
+2023-04-05 23:54:34,475 - LOCEcourier -INFO - Entered PU Zip
+2023-04-05 23:54:35,215 - LOCEcourier -INFO - Click on PU Address
+2023-04-05 23:54:36,191 - LOCEcourier -INFO - Entered PU Company
+2023-04-05 23:54:36,490 - LOCEcourier -INFO - Entered PU AddressLine1
+2023-04-05 23:54:36,732 - LOCEcourier -INFO - Entered PU Attention
+2023-04-05 23:54:36,999 - LOCEcourier -INFO - Entered PU Phone
+2023-04-05 23:54:37,023 - LOCEcourier -INFO - PU Ready Time==13:24
+2023-04-05 23:54:37,334 - LOCEcourier -INFO - PU Receive Time==13:24
+2023-04-05 23:54:37,460 - LOCEcourier -INFO - PU Arrival Time==13:24
+2023-04-05 23:54:37,612 - LOCEcourier -INFO - PU Mileage==13
+2023-04-05 23:54:39,985 - LOCEcourier -INFO - Entered DL Zip
+2023-04-05 23:54:43,076 - LOCEcourier -INFO - Entered DL Address
+2023-04-05 23:54:43,395 - LOCEcourier -INFO - Entered DL Company
+2023-04-05 23:54:43,718 - LOCEcourier -INFO - Entered DL Address Line1
+2023-04-05 23:54:44,003 - LOCEcourier -INFO - Entered DL Attention
+2023-04-05 23:54:44,263 - LOCEcourier -INFO - Entered DL Phone
+2023-04-05 23:54:44,287 - LOCEcourier -INFO - DL Miles==18
+2023-04-05 23:54:46,730 - LOCEcourier -INFO - Entered Total Qty
+2023-04-05 23:54:47,024 - LOCEcourier -INFO - Entered Weight
+2023-04-05 23:54:47,282 - LOCEcourier -INFO - Entered Length
+2023-04-05 23:54:47,547 - LOCEcourier -INFO - Entered Width
+2023-04-05 23:54:47,788 - LOCEcourier -INFO - Entered Height
+2023-04-05 23:54:48,078 - LOCEcourier -INFO - Entered Commodity
+2023-04-05 23:54:50,157 - LOCEcourier -INFO - Total Mileage==4
+2023-04-05 23:54:52,708 - LOCEcourier -INFO - Click on Create Order button
+2023-04-05 23:55:36,984 - LOCEcourier -INFO - Validation for Package is not displayed
+2023-04-05 23:55:37,139 - LOCEcourier -INFO - =====Pickup =9996575=====
+
+2023-04-05 23:55:37,372 - LOCEcourier -INFO - Clicked on Edit Order
+2023-04-05 23:55:41,917 - LOCEcourier -INFO - Scroll down to Get the Rate
+2023-04-05 23:55:41,991 - LOCEcourier -INFO - Clicked on Job Status Tab
+2023-04-05 23:55:46,094 - LOCEcourier -INFO - ServiceID=LOC
+2023-04-05 23:55:46,164 - LOCEcourier -INFO - Stage=TC ACKNOWLEDGE
+2023-04-05 23:55:46,224 - LOCEcourier -INFO - Clicked on TC Acknowledge button
+2023-04-05 23:55:52,725 - LOCEcourier -INFO - Service is==LOC
+2023-04-05 23:55:52,809 - LOCEcourier -INFO - Stage=READY FOR DISPATCH
+2023-04-05 23:55:52,891 - LOCEcourier -INFO - Clicked on Edit Courier Option
+2023-04-05 23:55:53,624 - LOCEcourier -INFO - Entered 34775 Courier Number
+2023-04-05 23:55:53,671 - LOCEcourier -INFO - Clicked on Search Button
+2023-04-05 23:55:53,722 - LOCEcourier -INFO - Clicked on Heavy Weight Radio Button
+2023-04-05 23:55:56,352 - LOCEcourier -INFO - Clicked on Search Button
+2023-04-05 23:55:56,413 - LOCEcourier -INFO - Selected Courier ID 34775 
+2023-04-05 23:56:01,645 - LOCEcourier -INFO - Entered Spoke With
+2023-04-05 23:56:01,717 - LOCEcourier -INFO - Clicked On SnedPU alert
+2023-04-05 23:56:10,063 - LOCEcourier -INFO - Click on Operation
+2023-04-05 23:56:10,145 - LOCEcourier -INFO - Click on Order Search
+2023-04-05 23:56:14,687 - LOCEcourier -INFO - Entered Pick Up ID
+2023-04-05 23:56:14,751 - LOCEcourier -INFO - Clicked on Search
+2023-04-05 23:56:17,589 - LOCEcourier -INFO - Clicked on JOBID
+2023-04-05 23:56:17,838 - LOCEcourier -INFO - Clicked on Job Status
+2023-04-05 23:56:20,107 - LOCEcourier -INFO - Clicked on Confirm PU Alert
+2023-04-05 23:56:30,248 - LOCEcourier -INFO - ServiceID=LOC
+2023-04-05 23:56:30,311 - LOCEcourier -INFO - Stage=PICKUP
+2023-04-05 23:56:38,437 - LOCEcourier -INFO - Clicked on To Open Memo
+2023-04-05 23:56:40,128 - LOCEcourier -INFO - Screen Shot of Ecourier Order Tracking Number taken
+2023-04-05 23:56:46,284 - LOCEcourier -INFO - Extracted Memo full text
+2023-04-05 23:56:46,285 - LOCEcourier -INFO - Extracted Ecoutier ID:-158487
+2023-04-05 23:56:46,316 - LOCEcourier -INFO - Extracted Pick Up ID with Prefix
+2023-04-05 23:56:46,395 - LOCEcourier -INFO - Clicked on close Memo
+2023-04-05 23:56:46,992 - LOCEcourier -INFO - Clicked on Edit Job
+2023-04-05 23:56:51,116 - LOCEcourier -INFO - Actaul Time zone fetched
+2023-04-05 23:56:54,671 - LOCEcourier -INFO - Actaul Ready time extracted
+2023-04-05 23:56:56,719 - LOCEcourier -INFO - Pick Up date extracted
+2023-04-05 23:57:02,824 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 111.0.5563.64 (since Google Chrome 111 is installed in your machine)
+2023-04-05 23:57:02,861 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\rprajapati\.m2\repository\webdriver\chromedriver\win32\111.0.5563.64\chromedriver.exe
+2023-04-05 23:57:11,352 - LOCEcourier -INFO - Ecourier Utility is opened
