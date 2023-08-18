@@ -1,13 +1,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="ConnectSuite">
 
-<!-- 
+
 	<test thread-count="5" name="OrderCreationProcessing">
 		<classes>
 			<class name="connect_OrderProcessing.AllOrderCreation"></class>
 		</classes>
 	</test>
--->
+
 	<test thread-count="5" name="ECourier-Test Utility">
 		<classes>
 			<class name="connect_Ecourier.LOCEcourier"></class>
