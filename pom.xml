@@ -132,7 +132,7 @@
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>
 				selenium-api</artifactId>
-			<version>4.9.0</version>
+			<version>4.19.0</version>
 		</dependency>
 		<dependency>
 			<groupId>
